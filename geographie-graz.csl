@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<style class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="de" xmlns="http://purl.org/net/xbiblio/csl">
+  <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/) -->
+  <info>
+    <title>Geographie-Graz</title>
+    <title-short>geo-graz</title-short>
+    <id>http://www.zotero.org/styles/geographie-graz</id>
+    <link rel="self" href="http://www.zotero.org/styles/geographie-graz"/>
+    <category citation-format="author-date"/>
+    <category field="Geographie"/>
+    <summary>Zitierstandard Geographie-Graz</summary>
+    <updated>2020-12-07T10:20:46+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+  </info>
+  <locale xml:lang="de">
+    <terms>
+      <term name="et-al">et al.</term>
+    </terms>
+  </locale>
+  <macro name="editor">
+    <names variable="editor" delimiter=", ">
+      <name delimiter="," delimiter-precedes-last="always" et-al-min="3" initialize-with="." name-as-sort-order="all"/>
+    </names>
+    <text value="Hg." prefix=" (" suffix=")"/>
+  </macro>
+  <macro name="anon">
+    <text term="anonymous" form="short" text-case="capitalize-first" strip-periods="true"/>
+  </macro>
+  <macro name="author">
+    <names variable="author">
+      <name delimiter-precedes-last="always" et-al-min="19" initialize-with="." name-as-sort-order="all">
+        <name-part name="given" text-case="capitalize-first" suffix="."/>
+      </name>
+      <label form="short" prefix=" (" suffix=")" text-case="capitalize-first"/>
+      <substitute>
+        <names variable="editor"/>
+        <text macro="anon"/>
+      </substitute>
+    </names>
+  </macro>
+  <macro name="author-short">
+    <names variable="author">
+      <name form="short" delimiter=" und " delimiter-precedes-last="always" et-al-min="3" initialize-with=". " sort-separator=","/>
+      <substitute>
+        <names variable="editor"/>
+        <names variable="translator"/>
+        <text macro="anon"/>
+      </substitute>
+    </names>
+    <text value=""/>
+  </macro>
+  <macro name="access">
+    <choose>
+      <if variable="URL">
+        <group>
+          <text variable="URL"/>
+          <date form="numeric" variable="accessed" prefix=", zuletzt geprüft am "/>
+        </group>
+      </if>
+    </choose>
+  </macro>
+  <macro name="title">
+    <text variable="title"/>
+  </macro>
+  <macro name="publisher">
+    <group suffix=", ">
+      <text variable="publisher-place" suffix=": "/>
+    </group>
+  </macro>
+  <macro name="year-date">
+    <choose>
+      <if variable="issued"/>
+      <else>
+        <text term="no date" form="short"/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="pages">
+    <text variable="page" prefix="S. "/>
+  </macro>
+  <citation et-al-min="4" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" givenname-disambiguation-rule="by-cite" disambiguate-add-givenname="true" collapse="year" after-collapse-delimiter=";">
+    <layout delimiter="; " prefix="(" suffix=")">
+      <group>
+        <text macro="author-short"/>
+        <date date-parts="year" form="text" variable="issued" prefix=" "/>
+        <text variable="locator" prefix=", S. "/>
+      </group>
+    </layout>
+  </citation>
+  <bibliography hanging-indent="true" et-al-min="9" et-al-use-first="8" entry-spacing="0" line-spacing="1">
+    <sort>
+      <key macro="author"/>
+      <key macro="year-date"/>
+      <key variable="title"/>
+    </sort>
+    <layout suffix=".">
+      <choose>
+        <if type="book" match="any">
+          <group>
+            <text macro="author" suffix=" "/>
+            <choose>
+              <if match="any" variable="editor">
+                <text macro="editor" suffix=" "/>
+              </if>
+            </choose>
+            <date form="text" variable="issued" prefix="(" suffix="): "/>
+            <text macro="title" suffix=". "/>
+            <choose>
+              <if match="any" variable="edition">
+                <text variable="edition" suffix=". "/>
+              </if>
+            </choose>
+            <text variable="event-place" suffix=": "/>
+            <text variable="publisher"/>
+            <choose>
+              <if match="any" variable="number-of-pages">
+                <text variable="number-of-pages" prefix=", "/>
+              </if>
+            </choose>
+          </group>
+        </if>
+      </choose>
+      <choose>
+        <if type="article article-journal article-magazine article-newspaper" match="any">
+          <group>
+            <text macro="author" suffix=" "/>
+            <date date-parts="year" form="text" variable="issued" prefix="(" suffix="): "/>
+            <text macro="title" suffix=". "/>
+            <text variable="container-title" prefix="In: " suffix=" "/>
+            <text variable="volume" suffix=", "/>
+            <choose>
+              <if match="any" variable="issue">
+                <text variable="issue" suffix=", "/>
+              </if>
+            </choose>
+            <text macro="pages"/>
+            <choose>
+              <if match="any" variable="URL">
+                <text variable="URL" prefix=". "/>
+              </if>
+            </choose>
+          </group>
+        </if>
+      </choose>
+      <choose>
+        <if type="webpage" match="any">
+          <group>
+            <text macro="author" suffix=" "/>
+            <text value="(Hg.)" suffix=" "/>
+            <date date-parts="year" form="text" variable="issued" prefix="(" suffix="): "/>
+            <text macro="title" suffix=". "/>
+            <text macro="access"/>
+          </group>
+        </if>
+      </choose>
+      <choose>
+        <if type="chapter" match="any">
+          <group>
+            <text macro="author"/>
+            <date form="text" variable="issued" prefix=" (" suffix="): "/>
+            <text macro="title" suffix=". "/>
+            <text macro="editor" prefix="In: " suffix=": "/>
+            <text variable="container-title" suffix=". "/>
+            <text variable="event-place" suffix=": "/>
+            <text variable="publisher" suffix=" "/>
+            <choose>
+              <if match="any" variable="note">
+                <text variable="note" prefix="(" suffix=")"/>
+              </if>
+            </choose>
+            <text variable="page" prefix=", S. "/>
+          </group>
+        </if>
+      </choose>
+      <choose>
+        <if type="dataset" match="any">
+          <text value=""/>
+        </if>
+      </choose>
+    </layout>
+  </bibliography>
+  <citation/>
+</style>
