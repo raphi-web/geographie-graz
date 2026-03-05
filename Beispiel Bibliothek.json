@@ -1,12 +1,431 @@
 [
-  {"id":"article","author":[{"family":"Thrift","given":"Nigel"}],"container-title":"Geoforum","DOI":"10.1016/S0016-7185(02)00019-2","issue":"2","issued":{"date-parts":[[1975,1]]},"page":"291-298","title":"The future of geography","type":"article-journal","URL":"https://www.researchgate.net/publication/222405571_The_Future_of_Geography","volume":"33"},
-  {"id":"coutardRockTemperatureMeasurements1989","author":[{"family":"Coutard","given":"Jones"},{"family":"Francou","given":"Benjamin"}],"container-title":"Arctic and Alpine Research","issue":"2","issued":{"date-parts":[[1989]]},"page":"399-416","title":"Rock temperature measurements in two alpine environments. Implications for frost shattering.","type":"article-journal","volume":"21"},
-  {"id":"dikauErdoberflacheLebensUnd2006","author":[{"family":"Dikau","given":"Richard"},{"family":"Moldenhauer","given":"Klaus-Martin"},{"family":"Bedehäsing","given":"Jutta"}],"event-place":"Berlin","ISBN":"978-3-443-21148-6","issued":{"date-parts":[[2006]]},"language":"English","note":"OCLC: 470866009","publisher":"Gebrüder Borntraeger","publisher-place":"Berlin","source":"Open WorldCat","title":"Die Erdoberfläche - Lebens- und Gestaltungsraum des Menschen: Forschungsstrategische und programmatische Leitlinien zukünftiger geomorphologischer Forschung und Lehre","title-short":"Die Erdoberfläche - Lebens- und Gestaltungsraum des Menschen","type":"book"},
-  {"id":"grayDebrisAccretionTalus1972","author":[{"family":"Gray","given":"Jonson"}],"container-title":"Mountain geomorphology. Geomorphological process in the Canadian Cordillera","editor":[{"family":"Slaymaker","given":"Henry"},{"family":"McPherson","given":"Harrald"}],"event-place":"Vancouver","issued":{"date-parts":[[1972]]},"note":"274","page":"75-80","publisher":"Tantalus Research","publisher-place":"Vancouver","title":"Debris accretion on talus slopes in the central Yukon Territory","type":"chapter"},
-  {"id":"grossMethodischeUntersuchungenUber1977","author":[{"family":"Gross","given":"Grerhard"},{"family":"Kerschner","given":"Harald"},{"family":"Patzelt","given":"Gilbert"}],"container-title":"Zeitschrift für Gletscherkunde und Glaziologie","issue":"2","issued":{"date-parts":[[1977]]},"page":"223-251","title":"Methodische Untersuchungen über die Schneegrenze in alpinen Gletschergebieten.","type":"article-journal","volume":"12"},
-  {"id":"hungarianstatisticalofficeMainDataStatistical2004","accessed":{"date-parts":[[2020,6,27]]},"author":[{"family":"Hungarian Statistical Office","given":""}],"issued":{"date-parts":[[2004]]},"title":"Main data by statistical subregions for regional development","type":"webpage","URL":"portal.ksh.hu/pls/ksh/docs/hun/xftp/idoszaki/pdf/kisters.pdf"},
-  {"id":"intelIntelCoreProzessorreihe2015","accessed":{"date-parts":[[2020,6,26]]},"author":[{"family":"Intel","given":""}],"issued":{"date-parts":[[2015,3,20]]},"title":"Intel® Core™ Prozessorreihe","type":"webpage","URL":"https://www.intel.de/content/www/de/de/products/processors/core.html"},
-  {"id":"meyerUnterrichtsmethoden2007","author":[{"family":"Meyer","given":"Hannes"}],"edition":"12. Auflage","event-place":"Frankfurt a. M.","issued":{"date-parts":[[2007]]},"publisher":"Cornelsen Scriptor","publisher-place":"Frankfurt a. M.","title":"Unterrichtsmethoden","type":"book"},
-  {"id":"pohlEntstehungGeographischenHazardforschung1985","author":[{"family":"Pohl","given":"Jürgen"}],"container-title":"Naturrisiken und Sozialkaterstrophen","editor":[{"family":"Felgentreff","given":"Congrad"},{"family":"Glade","given":"Timor"}],"event-place":"Berlin","issued":{"date-parts":[[1985]]},"page":"47-62","publisher":"Spektrum Akademischer Verlag","publisher-place":"Berlin","title":"Die Entstehung der geographischen Hazardforschung","type":"chapter"},
-  {"id":"schultzOkozonenErde2016","author":[{"family":"Schultz","given":"Jürgen"}],"collection-number":"1514","collection-title":"UTB Geowissenschaften, Ökologie, Agrarwissenschaften","edition":"5. vollständig überarbeitete Auflage","event-place":"Stuttgart","ISBN":"978-3-8385-4628-5 978-3-8252-4628-0","issued":{"date-parts":[[2016]]},"language":"ger","note":"OCLC: 949755754","number-of-pages":"332","publisher":"Ulmer","publisher-place":"Stuttgart","source":"Gemeinsamer Bibliotheksverbund ISBN","title":"Die Ökozonen der Erde","title-short":"Die Ökozonen der Erde","type":"book"}
+	{
+		"id": "http://zotero.org/users/8823674/items/S8NCBMNY",
+		"type": "article-journal",
+		"container-title": "Geoforum",
+		"DOI": "10.1016/S0016-7185(02)00019-2",
+		"issue": "2",
+		"page": "291-298",
+		"title": "The future of geography",
+		"URL": "https://www.researchgate.net/publication/222405571_The_Future_of_Geography",
+		"volume": "33",
+		"author": [
+			{
+				"family": "Thrift",
+				"given": "Nigel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1975",
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8823674/items/FZWDM6KL",
+		"type": "article-journal",
+		"container-title": "Arctic and Alpine Research",
+		"issue": "2",
+		"page": "399-416",
+		"title": "Rock temperature measurements in two alpine environments. Implications for frost shattering.",
+		"volume": "21",
+		"author": [
+			{
+				"family": "Coutard",
+				"given": "Jones"
+			},
+			{
+				"family": "Francou",
+				"given": "Benjamin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1989"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8823674/items/J77U9N3P",
+		"type": "book",
+		"ISBN": "978-3-443-21148-6",
+		"language": "English",
+		"note": "OCLC: 470866009",
+		"publisher": "Gebrüder Borntraeger",
+		"publisher-place": "Berlin",
+		"source": "Open WorldCat",
+		"title": "Die Erdoberfläche - Lebens- und Gestaltungsraum des Menschen: Forschungsstrategische und programmatische Leitlinien zukünftiger geomorphologischer Forschung und Lehre",
+		"title-short": "Die Erdoberfläche - Lebens- und Gestaltungsraum des Menschen",
+		"author": [
+			{
+				"family": "Dikau",
+				"given": "Richard"
+			},
+			{
+				"family": "Moldenhauer",
+				"given": "Klaus-Martin"
+			},
+			{
+				"family": "Bedehäsing",
+				"given": "Jutta"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2006"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8823674/items/RMQN7BLB",
+		"type": "chapter",
+		"container-title": "Mountain geomorphology. Geomorphological process in the Canadian Cordillera",
+		"page": "75-80",
+		"publisher": "Tantalus Research",
+		"publisher-place": "Vancouver",
+		"title": "Debris accretion on talus slopes in the central Yukon Territory",
+		"author": [
+			{
+				"family": "Gray",
+				"given": "Jonson"
+			}
+		],
+		"editor": [
+			{
+				"family": "Slaymaker",
+				"given": "Henry"
+			},
+			{
+				"family": "McPherson",
+				"given": "Harrald"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1972"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8823674/items/5VP6PBZJ",
+		"type": "article-journal",
+		"container-title": "Zeitschrift für Gletscherkunde und Glaziologie",
+		"issue": "2",
+		"page": "223-251",
+		"title": "Methodische Untersuchungen über die Schneegrenze in alpinen Gletschergebieten.",
+		"volume": "12",
+		"author": [
+			{
+				"family": "Gross",
+				"given": "Grerhard"
+			},
+			{
+				"family": "Kerschner",
+				"given": "Harald"
+			},
+			{
+				"family": "Patzelt",
+				"given": "Gilbert"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1977"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8823674/items/LATARBLS",
+		"type": "webpage",
+		"title": "Main data by statistical subregions for regional development",
+		"URL": "portal.ksh.hu/pls/ksh/docs/hun/xftp/idoszaki/pdf/kisters.pdf",
+		"author": [
+			{
+				"family": "Hungarian Statistical Office",
+				"given": ""
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					6,
+					27
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2004"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8823674/items/8MUE8BIG",
+		"type": "webpage",
+		"title": "Intel® Core™ Prozessorreihe",
+		"URL": "https://www.intel.de/content/www/de/de/products/processors/core.html",
+		"author": [
+			{
+				"family": "Intel",
+				"given": ""
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					6,
+					26
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					3,
+					20
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8823674/items/FA5ZCCXE",
+		"type": "book",
+		"edition": "12. Auflage",
+		"publisher": "Cornelsen Scriptor",
+		"publisher-place": "Frankfurt a. M.",
+		"title": "Unterrichtsmethoden",
+		"author": [
+			{
+				"family": "Meyer",
+				"given": "Hannes"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2007"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8823674/items/D7VGDHAR",
+		"type": "chapter",
+		"container-title": "Naturrisiken und Sozialkaterstrophen",
+		"page": "47-62",
+		"publisher": "Spektrum Akademischer Verlag",
+		"publisher-place": "Berlin",
+		"title": "Die Entstehung der geographischen Hazardforschung",
+		"author": [
+			{
+				"family": "Pohl",
+				"given": "Jürgen"
+			}
+		],
+		"editor": [
+			{
+				"family": "Felgentreff",
+				"given": "Congrad"
+			},
+			{
+				"family": "Glade",
+				"given": "Timor"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1985"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8823674/items/4L9H4DI9",
+		"type": "book",
+		"collection-number": "1514",
+		"collection-title": "UTB Geowissenschaften, Ökologie, Agrarwissenschaften",
+		"edition": "5. vollständig überarbeitete Auflage",
+		"ISBN": "978-3-8385-4628-5",
+		"language": "ger",
+		"note": "OCLC: 949755754",
+		"number-of-pages": "332",
+		"publisher": "Ulmer",
+		"publisher-place": "Stuttgart",
+		"source": "Gemeinsamer Bibliotheksverbund ISBN",
+		"title": "Die Ökozonen der Erde",
+		"author": [
+			{
+				"family": "Schultz",
+				"given": "Jürgen"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8823674/items/SY9QPA5G",
+		"type": "book",
+		"abstract": "Die vorliegende, umfassend überarbeitete und erweiterte Neuauflage des Buches konzentriert sich in ihren praktischen Beispielen sowohl auf die klassischen Verfahren der Beobachtung sowie quantitativen und qualitativen Befragungen als auch auf die mittlerweile zunehmend etablierten diskursanalytischen Verfahren. Diese Methoden werden in vielen Teildisziplinen der Humangeographie in Forschung und Lehre genutzt. Von Studierenden, die eine der Hauptzielgruppen dieses Buches darstellen, werden die dargestellten Methoden sowohl in universitären Lehrveranstaltungen als auch in ihren Abschlussarbeiten eingesetzt",
+		"collection-title": "Das Geographische Seminar",
+		"edition": "2. Auflage, Neubearbeitung",
+		"ISBN": "978-3-14-160366-8",
+		"language": "ger",
+		"number-of-pages": "316",
+		"publisher": "Westermann",
+		"publisher-place": "Braunschweig",
+		"source": "K10plus ISBN",
+		"title": "Methoden der empirischen Humangeographie",
+		"author": [
+			{
+				"family": "Mattissek",
+				"given": "Annika"
+			},
+			{
+				"family": "Pfaffenbach",
+				"given": "Carmella"
+			},
+			{
+				"family": "Reuber",
+				"given": "Paul"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2013"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8823674/items/WDJ85GRB",
+		"type": "article-journal",
+		"container-title": "Natural Hazards",
+		"DOI": "10.1007/s11069-022-05669-1",
+		"ISSN": "0921-030X, 1573-0840",
+		"issue": "1",
+		"journalAbbreviation": "Nat Hazards",
+		"language": "en",
+		"page": "193-212",
+		"source": "DOI.org (Crossref)",
+		"title": "Numerical analysis of debris flow erosion in the mountainous areas affected by the 2008 Wenchuan earthquake using a depth-averaged two-phase model",
+		"URL": "https://link.springer.com/10.1007/s11069-022-05669-1",
+		"volume": "116",
+		"author": [
+			{
+				"family": "Cheng",
+				"given": "Hualin"
+			},
+			{
+				"family": "Mergili",
+				"given": "Martin"
+			},
+			{
+				"family": "Huang",
+				"given": "Yu"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					3,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8823674/items/QF35744C",
+		"type": "chapter",
+		"collection-title": "Beiträge zur österreichischen Statistik",
+		"container-title": "Volkszählung 1991: Wohnbevölkerung nach Gemeinden mit der Bevölkerungsentwicklung seit 1869",
+		"publisher": "Österreichisches Statistisches Zentralamt",
+		"title": "Volkszählung 1991: Wohnbevölkerung nach Gemeinden mit der Bevölkerungsentwicklung seit 1869",
+		"editor": [
+			{
+				"literal": "Statistik Austria"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1992"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8823674/items/Q2Z7SID9",
+		"type": "map",
+		"collection-title": "Geologische Karte der Republik Österreich",
+		"publisher": "Geologische Bundesanstalt",
+		"publisher-place": "Wien",
+		"scale": "1:50.000",
+		"title": "Blatt 151 Krimml",
+		"collection-editor": [
+			{
+				"literal": "Geologische Bundesanstalt"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1979"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/8823674/items/H7NZSQJS",
+		"type": "thesis",
+		"genre": "Masterarbeit",
+		"language": "ger",
+		"publisher": "Karl-Franzens-Universität",
+		"publisher-place": "Graz",
+		"title": "Das fächerübergreifende Prinzip: dargestellt an der Kombination \"Geographie und Wirtschaftskunde\" und \"Mathematik\"",
+		"author": [
+			{
+				"family": "Kummer",
+				"given": "Monika"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1999"
+				]
+			]
+		}
+	}
 ]
